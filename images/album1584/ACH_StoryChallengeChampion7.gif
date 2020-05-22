@@ -1,0 +1,7 @@
+
+Warning: fopen(http://images.habbogroup.com/c_images/album1584/ACH_StoryChallengeChampion7.gif): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /var/customers/webs/ni425350_1/php/badge.php on line 21
+
+Warning: fpassthru() expects parameter 1 to be resource, boolean given in /var/customers/webs/ni425350_1/php/badge.php on line 22
+
+Warning: fclose() expects parameter 1 to be resource, boolean given in /var/customers/webs/ni425350_1/php/badge.php on line 23
