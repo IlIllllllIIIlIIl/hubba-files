@@ -3,6 +3,7 @@
 <site-control permitted-cross-domain-policies="master-only"/>
 <allow-access-from domain="*.hubba.cc"/>
 <allow-access-from domain="*.hubba.ws"/>
+<allow-access-from domain="*.hubba.to"/>
 <allow-access-from domain="*.hubbahotel.ru"/>
 <allow-access-from domain="*.funhotel.cf"/>
 </cross-domain-policy>
