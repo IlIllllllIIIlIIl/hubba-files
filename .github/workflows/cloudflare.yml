@@ -1,0 +1,51 @@
+name: Purge Cloudflare after Pages goes live
+
+on:
+  deployment_status:
+
+jobs:
+  purge:
+    if: ${{ github.event.deployment_status.environment == 'github-pages' && github.event.deployment_status.state == 'success' }}
+    runs-on: ubuntu-latest
+    env:
+      CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      BASE_URL: https://data.hubba.cc
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      # Try to compute diff for the pushed commit range
+      - name: Compute changed files
+        id: changed
+        run: |
+          BEFORE=${{ github.event.before }}
+          AFTER=${{ github.sha }}
+          if [ -z "$BEFORE" ]; then
+            # Fallback: compare to previous commit on current branch
+            git fetch --depth=2 origin ${{ github.ref_name }}
+            BEFORE=$(git rev-parse HEAD~1 || true)
+            AFTER=$(git rev-parse HEAD)
+          fi
+          git diff --name-only "$BEFORE" "$AFTER" | tee changed.txt
+      - name: Purge changed URLs
+        run: |
+          urls=()
+          while IFS= read -r f; do
+            [[ -f "$f" ]] || continue
+            urls+=("\"$BASE_URL/${f#./}\"")
+          done < changed.txt
+
+          if [ ${#urls[@]} -eq 0 ]; then
+            echo "No files changed; nothing to purge."
+            exit 0
+          fi
+
+          batch_size=30
+          for ((i=0; i<${#urls[@]}; i+=batch_size)); do
+            batch=$(printf ",%s" "${urls[@]:$i:batch_size}")
+            json="{\"files\":[${batch:1}]}"
+            curl -fsS -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE_ID }}/purge_cache" \
+              -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
+              -H "Content-Type: application/json" \
+              --data "$json"
+          done
