@@ -44,6 +44,7 @@ jobs:
           for ((i=0; i<${#urls[@]}; i+=batch_size)); do
             batch=$(printf ",%s" "${urls[@]:$i:batch_size}")
             json="{\"files\":[${batch:1}]}"
+            echo "$json"
             curl -fsS -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CF_ZONE_ID }}/purge_cache" \
               -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
               -H "Content-Type: application/json" \
