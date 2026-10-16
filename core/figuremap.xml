@@ -16298,7 +16298,7 @@
     <part id="8843" type="lg"/>
     <part id="8844" type="lg"/>
   </lib>
-  <lib id="trousers_U_high1horts" revision="987462870">
+  <lib id="trousers_U_high1horts" revision="987462866">
     <part id="5934" type="lg"/>
   </lib>
   <lib id="jacket_U_cloa5" revision="987462869">
@@ -16547,7 +16547,7 @@
     <part id="8294" type="hr"/>
     <part id="8294" type="hrb"/>
   </lib>
-  <lib id="Hair_F_wav" revision="8754132">
+  <lib id="Hair_F_wav" revision="875832">
     <part id="8732" type="hr"/>
     <part id="8732" type="hrb"/>
   </lib>
@@ -16709,7 +16709,7 @@
     <part id="7756" type="ls"/>
     <part id="7756" type="rs"/>
   </lib>
-  <lib id="shirt_M_longcalvin" revision="9784419">
+  <lib id="shirt_M_longcalvin" revision="1781719">
     <part id="9789" type="ch"/>
     <part id="9789" type="ls"/>
     <part id="9789" type="rs"/>
@@ -17311,7 +17311,7 @@
   <lib id="acc_print_U_musicwave" revision="220914">
     <part id="6730" type="cp"/>
   </lib>
-  <lib id="shirt_F_blusanueva02" revision="9002">
+  <lib id="shirt_F_blusanueva02" revision="908702">
     <part id="9002" type="ch"/>
   </lib>
   <lib id="acc_face_U_old2" revision="561282">
@@ -18010,10 +18010,6 @@
     <part id="10001392" type="hr"/>
   </lib>
   <lib id="hair_U_PeinadoAsianKawaii" revision="1900000002">
-    <part id="10001414" type="hr"/>
-    <part id="10001414" type="hrb"/>
-    <part id="10001415" type="hr"/>
-    <part id="10001415" type="hrb"/>
     <part id="156940" type="hr"/>
     <part id="156940" type="hrb"/>
     <part id="156941" type="hr"/>
@@ -18117,9 +18113,6 @@
   <lib id="hair_U_frenchcrophair" revision="1900000010">
     <part id="763256212" type="hr"/>
   </lib>
-  <lib id="hair_U_straightshort" revision="1900000011">
-    <part id="2147483647" type="hr"/>
-  </lib>
   <lib id="shirt_U_IchiSnowjacket" revision="1900000035">
     <part id="36338251" type="ch"/>
     <part id="36338251" type="ls"/>
@@ -18127,9 +18120,6 @@
     <part id="36338252" type="ch"/>
     <part id="36338252" type="ls"/>
     <part id="36338252" type="rs"/>
-  </lib>
-  <lib id="hair_U_testehairrr" revision="1900000012">
-    <part id="2147483647" type="hr"/>
   </lib>
   <lib id="hair_U_ekko" revision="1900000013">
     <part id="10001368" type="hr"/>
@@ -18153,10 +18143,6 @@
   </lib>
   <lib id="acc_waist_U_ltdmiubeltc" revision="1900000056">
     <part id="22234345" type="wa"/>
-    <part id="2147483647" type="wa"/>
-  </lib>
-  <lib id="acc_waist_U_ltdmiubelt1" revision="1900000057">
-    <part id="2147483647" type="wa"/>
   </lib>
   <lib id="acc_face_U_casslongbeard" revision="1900000060">
     <part id="6288" type="fa"/>
@@ -18292,7 +18278,6 @@
     <part id="10000648" type="lg"/>
   </lib>
   <lib id="hair_U_mediumfuckboy" revision="1900000020">
-    <part id="5948311" type="hr"/>
     <part id="10000622" type="hr"/>
   </lib>
   <lib id="hair_U_axeiedowolfcut" revision="1900000021">
