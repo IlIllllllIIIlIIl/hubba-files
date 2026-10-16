@@ -18014,6 +18014,10 @@
     <part id="10001414" type="hrb"/>
     <part id="10001415" type="hr"/>
     <part id="10001415" type="hrb"/>
+    <part id="156940" type="hr"/>
+    <part id="156940" type="hrb"/>
+    <part id="156941" type="hr"/>
+    <part id="156941" type="hrb"/>
   </lib>
   <lib id="hair_U_KaynHair" revision="1900000003">
     <part id="10001390" type="hr"/>
@@ -18289,6 +18293,7 @@
   </lib>
   <lib id="hair_U_mediumfuckboy" revision="1900000020">
     <part id="5948311" type="hr"/>
+    <part id="10000622" type="hr"/>
   </lib>
   <lib id="hair_U_axeiedowolfcut" revision="1900000021">
     <part id="180261" type="hr"/>
