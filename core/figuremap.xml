@@ -5238,6 +5238,8 @@
     <part id="2571" type="rs"/>
     <part id="2572" type="ch"/>
     <part id="2572" type="rs"/>
+    <part id="2225" type="ls"/>
+    <part id="2225" type="rs"/>
   </lib>
   <lib id="jacket_F_nftmhoodieicons" revision="74960">
     <part id="7306" type="cc"/>
@@ -5503,6 +5505,7 @@
     <part id="2853" type="ch"/>
     <part id="2854" type="ch"/>
     <part id="2853" type="ls"/>
+    <part id="2854" type="rs"/>
   </lib>
   <lib id="shirt_F_drsports2" revision="68628">
     <part id="4725" type="ch"/>
@@ -9464,7 +9467,7 @@
     <part id="3049" type="ls"/>
     <part id="3049" type="rs"/>
   </lib>
-  <lib id="misc_U_nftcottoncandy" revision="75972">
+  <lib id="misc_U_nftcottoncandy" revision="76025">
     <part id="7659" type="mc"/>
     <part id="7659" type="mcl"/>
     <part id="7659" type="mcr"/>
@@ -10223,6 +10226,8 @@
     <part id="2551" type="cc"/>
     <part id="2551" type="lc"/>
     <part id="2551" type="rc"/>
+    <part id="7171" type="lc"/>
+    <part id="7171" type="rc"/>
   </lib>
   <lib id="acc_waist_U_foxtail" revision="64621">
     <part id="3327" type="wa"/>
@@ -12505,6 +12510,8 @@
     <part id="3756" type="rs"/>
     <part id="3757" type="ch"/>
     <part id="3758" type="ch"/>
+    <part id="3757" type="ls"/>
+    <part id="3757" type="rs"/>
     <part id="3758" type="ls"/>
     <part id="3758" type="rs"/>
   </lib>
@@ -16076,6 +16083,8 @@
     <part id="17" type="rs"/>
     <part id="2" type="ls"/>
     <part id="2" type="rs"/>
+    <part id="3" type="ls"/>
+    <part id="3" type="rs"/>
     <part id="1800" type="lc"/>
     <part id="1800" type="rc"/>
     <part id="802" type="lc"/>
