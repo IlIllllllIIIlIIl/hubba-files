@@ -15897,6 +15897,7 @@
     <part id="7776" type="hrb"/>
     <part id="7777" type="hr"/>
     <part id="7778" type="hr"/>
+    <part id="7777" type="hrb"/>
     <part id="7778" type="hrb"/>
   </lib>
   <lib id="shoes_U_nftsnowstorm" revision="76095">
@@ -17595,8 +17596,8 @@
     <part id="9033" type="cp"/>
   </lib>
   <lib id="hair_M_stylefr" revision="77777">
-    <part id="7777" type="hr"/>
-    <part id="7777" type="hrb"/>
+    <part id="990032" type="hr"/>
+    <part id="990032" type="hrb"/>
   </lib>
   <lib id="shirt_U_riseerobe" revision="61288596">
     <part id="8488" type="ch"/>

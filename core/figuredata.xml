@@ -2699,8 +2699,8 @@
         <part id="9965" type="hrb" colorable="1" index="0" colorindex="1"/>
       </set>
       <set id="7777" gender="M" club="0" colorable="1" selectable="1" sellable="0">
-        <part id="7777" type="hr" colorable="1" index="0" colorindex="1"/>
-        <part id="7777" type="hrb" colorable="1" index="0" colorindex="1"/>
+        <part id="990032" type="hr" colorable="1" index="0" colorindex="1"/>
+        <part id="990032" type="hrb" colorable="1" index="0" colorindex="1"/>
       </set>
       <set id="9163" gender="M" club="0" colorable="1" selectable="1" sellable="0">
         <part id="9548" type="hr" colorable="1" index="0" colorindex="1"/>
