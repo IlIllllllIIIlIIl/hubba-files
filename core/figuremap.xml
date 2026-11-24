@@ -16373,7 +16373,6 @@
     <part id="3" type="hd"/>
     <part id="4" type="hd"/>
     <part id="999" type="bd"/>
-    <part id="2" type="fc"/>
     <part id="3" type="fc"/>
   </lib>
   <lib id="hh_human_face" revision="50491">
